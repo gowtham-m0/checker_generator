@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: #CDF5FD;
+    color: black;
+}
+
+h1 {
+    width: 50%;
+    display: block;
+    font-size: 65px;
+    text-decoration: underline;
+    margin: 20px auto;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.main {
+    background-color: #89CFF3;
+    opacity: 0.7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0.5%;
+    width: 1248px;
+    height: 580px;
+}
+
+hr {
+    width: 340px;
+    margin: auto;
+    position: relative;
+    top: 180px;
+    transform: rotate(90deg);
+    border: 1px solid black;
+}
+
+.slogan {
+    font-size: 40px;
+    color: #5D12D2;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 2px 2px black;
+    padding: 30px 0px;
+    font-family: 'Inter';
+}
+
+h2 {
+    font-family: 'Joti One';
+    text-decoration: underline;
+}
+
+.row {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.pass {
+    width: 353px;
+    height: 95px;
+    font-size: 20px;
+    margin: 60px auto 50px;
+    font-family: 'Kalam';
+}
+
+.btn {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kiwi Maru';
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 2px 4px 6px 2px, rgba(14, 30, 37, 0.32) 2px 4px 18px 3px;
+    background-color: rgb(212, 206, 206);
+    font-size: 21px;
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .main {
+        max-width: 90vw;
+        height: 870px;
+        margin-bottom: 0;
+    }
+
+    .slogan {
+        font-size: 1.1rem;
+    }
+
+    hr {
+        transform: rotate(0deg);
+        position: relative;
+        top: 350px;
+        left: -0px;
+        width: 90%;
+    }
+
+    .nd {
+        margin-top: 60px;
+    }
+
+    .pass {
+        width: 80vw;
+    }
+
+    footer {
+        margin-top: auto;
+
+    }
+
+}
