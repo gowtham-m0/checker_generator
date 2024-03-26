@@ -151,7 +151,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1050px) {
+@media only screen and (max-width: 780px) {
 
     body {
         text-align: center;
@@ -171,12 +171,16 @@ footer {
 
     img {
         display: none;
+        visibility: none;
     }
 
     .box {
         margin: auto;
         width: 80vw;
-        height: 65vh;
+        height: 75vh;
+    }
+    h3{
+        width: 100%;
     }
 
     .content {
@@ -185,14 +189,14 @@ footer {
     }
 
     .pass {
-        width: 40vw;
+        position: relative;
+        width: 200px;
 
     }
 
     .cen {
-        margin-top: 20px;
         width: 40vw;
-        margin: 20px auto;
+        margin: 10px auto;
         margin-right: 30vw;
     }
 
@@ -205,9 +209,9 @@ footer {
         color: black;
     }
 
-    .home {
+    .home{
         position: relative;
-        top: -20px;
+        top: -10px;
     }
 
     footer {
